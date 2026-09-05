@@ -5,6 +5,7 @@ import java.util.List;
 
 public interface BandaDAO {
 	
+	// Implementacao do DAO
 	void salvar(Banda banda);
 	Banda buscarPorId(Long id);
 	List<Banda> listarTodos();
