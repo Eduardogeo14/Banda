@@ -51,13 +51,16 @@ public class Musica {
 		}
 	}
 	
-	 	public Long getId() {
-	        return id;
-	    }
+	// ajusta setId e getId;
+	public Long getId() {
+		return id;
+	}
+	
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-	    public void setId(Long id) {
-	        this.id = id;
-	    }
+	   
 	
 	public Album getAlbum() {
 		return this.album;
