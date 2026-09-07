@@ -18,6 +18,7 @@ public class Principal {
 		
 		Banda banda = new Banda("Metalica", GeneroEnum.METAL);
 		
+		
 		Integrante james = new Integrante("James Hetfield");
         Integrante lars = new Integrante("Lars Ulrich");
         
@@ -40,8 +41,10 @@ public class Principal {
         em.persist(m1);
         em.persist(m2);
         
+        
         em.getTransaction().commit();
         System.out.println("Dados persistidos com sucesso");
+        
         
         System.out.println("Banda: " + banda.getNome());
         

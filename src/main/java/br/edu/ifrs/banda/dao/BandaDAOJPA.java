@@ -54,6 +54,7 @@ public class BandaDAOJPA implements BandaDAO {
 		if(banda != null) {
 			em.remove(banda);
 		}
+		em.getTransaction().commit();
 		em.close();
 	}
 	

@@ -59,9 +59,6 @@ public class Musica {
 	public void setId(Long id) {
 		this.id = id;
 	}
-
-	   
-	
 	public Album getAlbum() {
 		return this.album;
 	}
